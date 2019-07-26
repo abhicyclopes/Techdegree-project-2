@@ -1,3 +1,15 @@
-body {
+* {
+    box-sizing: border-box;
+}
+
+.main-body {
     text-align: center;
+}
+
+ul li {
+    display: block;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    margin-bottom: 10px;
+    padding: 10px 0;
 }
