@@ -8,8 +8,8 @@
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="main-body">
-    <header id="header" class="main-header">
+  <body>
+    <header id="header" class="container">
         <h1 class="heading">Abbhishek Soni</h1>
         <nav class="main-nav">
             <ul>
@@ -18,78 +18,92 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
-        <div class="banner">
-            <img src="images/responsive-layout-profile.png" alt="profile image" class="profile-image" />
-            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at treehouse and am excited to put all my skills to use!</p>           
-        </div>
+            <img src="images/responsive-layout-profile.png" alt="profile image" id="profile-image" />
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at treehouse and am excited to put all my skills to use!</p>
     </header>
 
-    <main id="portfolio" class="content">
+    <main id="portfolio" class="container">
         <div class="main-content">
             <div class="primary-content">
             <h2 class="second-heading">Portfolio</h2>
                 <div class="first-box">
-                    <img src="images/portfolio-1.png" alt="website photo">
-                    <h3 class="title-1">Marketing Page</h3>
-                    <p>
-                        This project shows the front page of a marketing website meant for a specific business I'm interested in.
-                    </p>
+                    <img src="images/portfolio-1.png" alt="website photo" class="image" /> 
+                    <div class="box-content">
+                        <h3 class="title-1">Marketing Page</h3>
+                        <p>
+                            This project shows the front page of a marketing website meant for a specific business I'm interested in.
+                        </p>
+                    </div>
                 </div>
                 
                 <div class="second-box">
-                    <img src="images/portfolio-2.png" alt="search page photo" />
-                    <h3 class="title-2">Search Page</h3>
-                    <p>
-                        This project searches through a specific database to find the information the user is trying to lookup.
-                    </p>
+                    <img src="images/portfolio-2.png" alt="search page photo" class="image"/>
+                    <div class="box-content">
+                        <h3 class="title-2">Search Page</h3>
+                        <p>
+                            This project searches through a specific database to find the information the user is trying to lookup.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="third-box">
-                    <img src="images/portfolio-3.png" alt="travel page photo" />
-                    <h3 class="title-3">Travel App</h3>
-                    <p>
-                        This project compares travel times based on diffrent transportation methods and and tells you the best one.
-                    </p>
+                    <img src="images/portfolio-3.png" alt="travel page photo" class="image"/>
+                    <div class="box-content">
+                        <h3 class="title-3">Travel App</h3>
+                        <p>
+                            This project compares travel times based on diffrent transportation methods and and tells you the best one.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="forth-box">
-                    <img src="images/portfolio-4.png" alt="map image" />
-                    <h3 class="title-4">Map of Favorite Spots</h3>
-                    <p>
-                        This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.
-                    </p>
+                    <img src="images/portfolio-4.png" alt="map image" class="image"/>
+                    <div class="box-content">
+                        <h3 class="title-4">Map of Favorite Spots</h3>
+                        <p>
+                            This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="fifth-box">
-                    <img src="images/portfolio-5.png" alt="photo gallery image" />
-                    <h3 class="title-5">Photo Gallery</h3>
-                    <p>
-                        This project shows photos from a recent trip to the viewer and allows them to easliy navigate through photos.
-                    </p>
+                    <img src="images/portfolio-5.png" alt="photo gallery image" class="image"/>
+                    <div class="box-content">
+                        <h3 class="title-5">Photo Gallery</h3>
+                        <p>
+                            This project shows photos from a recent trip to the viewer and allows them to easliy navigate through photos.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="sixth-box">
-                    <img src="images/portfolio-6.png" alt="calculator image" />
-                    <h3 class="title-6">Calculator</h3>
-                    <p>
-                        Someone can enter in the numbers they want, and press the big blue button and get the result.
-                    </p>
+                    <img src="images/portfolio-6.png" alt="calculator image" class="image"/>
+                    <div class="box-content">
+                        <h3 class="title-6">Calculator</h3>
+                        <p>
+                            Someone can enter in the numbers they want, and press the big blue button and get the result.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="secondary-content">
-                <h2 class="third-heading">Contact</h2>
-                <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-                <p>Phone +917665495999</p>
-                <p>Email abbhisheksoni001@gmail.com</p>
-            </div>
+            
+               
+            
         </div>
     </main>
 
     <footer id="contact" class="contact">
-        <h3>Abbhishek Soni</h3>
-        <p><a href="#header">BACK TO TOP</a></p>
+        <section>
+            <h3 class="third-heading">Contact</h3>
+            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+            <p>Phone +917665495999</p>
+            <p>Email abbhisheksoni001@gmail.com</p>
+        </section>
+        <div class="footer-nav">
+            <h3>Abbhishek Soni</h3>
+            <p><a href="#header">BACK TO TOP</a></p>
+        </div>
     </footer>
 </body>
 

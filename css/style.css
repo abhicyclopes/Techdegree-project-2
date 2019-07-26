@@ -2,14 +2,53 @@
     box-sizing: border-box;
 }
 
-.main-body {
+#header {
+    background-color: lightgray;
+    padding: 10px 0;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 10px 0 0;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+li {
+    border: 1px solid beige;
+    background-color: beige;
+    margin-bottom: 5px;
+    padding: 15px 0;
+    font-size: 20px; 
+}
+
+h2 {
+    padding: 60px 0;
+}
+
+.box-content {
+    padding-bottom: 60px;
+}
+
+.contact {
+    background-color: lightgray;
     text-align: center;
 }
 
-ul li {
-    display: block;
-    background-color: cadetblue;
-    border: 1px solid cadetblue;
-    margin-bottom: 10px;
-    padding: 10px 0;
+.footer-nav {
+    display: inline;
 }
