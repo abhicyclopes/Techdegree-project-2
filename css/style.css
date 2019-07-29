@@ -16,6 +16,7 @@ div {
 h1 {
     font-size: 32px;
     margin: 16px 0;
+    color: rgb(88, 77, 77);
 }
 
 .main-header {
@@ -37,14 +38,27 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: firebrick;
+}
+
+a:visited {
+    color: rgb(3, 88, 99);
+}
+
 p {
     margin: 30px;
+    color: firebrick;
+    font-style: italic;
+    letter-spacing: .6px;
+    line-height: 1.5em;
 }
 
 nav {
     text-align: center;
     margin-bottom: 10px;
     padding: 10px 0;
+
 }
 
 nav ul {
@@ -273,10 +287,6 @@ h2 {
         min-height: max-content;
     }
 
-    .box-2,
-    .box-5 {
-        margin: 0 58px;
-    }
 
     .image {
         width: 100%;
