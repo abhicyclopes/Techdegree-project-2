@@ -9,25 +9,28 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="wrapper">
-    <header id="header" class="container">
-        <h1 class="heading">Abbhishek Soni</h1>
-        <nav class="main-nav">
+    <header id="header" class="main-header container group">
+        <nav class="main-nav group">
+        <h1 class="heading">Abbhishek Soni</h1>    
             <ul>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-            <img src="images/responsive-layout-profile.png" alt="profile image" id="profile-image" />
-            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at treehouse and am excited to put all my skills to use!</p>
+            <section class="author">
+                <img src="images/responsive-layout-profile.png" alt="profile image" id="profile-image" class="profile"/>
+                <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at treehouse and am excited to put all my skills to use!</p>
+            </section>
     </header>
 
-    <main id="portfolio" class="container">
-        <div class="main-content">
+    <main id="portfolio" class="container page-content group">
+        <div class="main-content group">
                 <h2 class="second-heading">Portfolio</h2>
-                <div class="primary-content">
-                    <div class="first-box group">
-                        <img src="images/portfolio-1.png" alt="website photo" class="image" /> 
+                <div class="primary-content group">
+                    
+                    <div class="box-1 box-left box group">
+                        <img src="images/portfolio-1.png" alt="website photo" class="image" />
                         <div class="box-content">
                             <h3 class="title-1">Marketing Page</h3>
                             <p>
@@ -36,7 +39,7 @@
                         </div>
                     </div>
                 
-                    <div class="second-box group">
+                    <div class="box-2 box-right box group">
                         <img src="images/portfolio-2.png" alt="search page photo" class="image"/>
                         <div class="box-content">
                             <h3 class="title-2">Search Page</h3>
@@ -46,7 +49,7 @@
                         </div>
                     </div>
 
-                    <div class="third-box">
+                    <div class="box-3 box-left box group">
                         <img src="images/portfolio-3.png" alt="travel page photo" class="image"/>
                         <div class="box-content">
                             <h3 class="title-3">Travel App</h3>
@@ -56,7 +59,7 @@
                         </div>
                     </div>
 
-                    <div class="forth-box">
+                    <div class="box-4 box-right box group">
                         <img src="images/portfolio-4.png" alt="map image" class="image"/>
                         <div class="box-content">
                             <h3 class="title-4">Map of Favorite Spots</h3>
@@ -66,7 +69,7 @@
                         </div>
                     </div>
 
-                    <div class="fifth-box">
+                    <div class="box-5 box-left box group">
                         <img src="images/portfolio-5.png" alt="photo gallery image" class="image"/>
                         <div class="box-content">
                             <h3 class="title-5">Photo Gallery</h3>
@@ -76,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="sixth-box">
+                    <div class="box-6 box-right box group">
                         <img src="images/portfolio-6.png" alt="calculator image" class="image"/>
                         <div class="box-content">
                             <h3 class="title-6">Calculator</h3>
@@ -96,7 +99,15 @@
             <p><strong>Phone&colon;</strong> +91-7665495999</p>
             <p><strong>Email&colon;</strong> abbhisheksoni001&commat;gmail.com</p>
             <hr>
-        <section class="footer-nav">    
+        <section class="footer-nav group">    
+            <nav class="main-nav nav-display footer-nav group">
+                <h1 class="heading footer-h1">Abbhishek Soni</h1>    
+                    <ul class="footer-ul">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+             </nav>            
             <p class="footer-headline"><strong>Abbhishek Soni</strong></p>
             <p class="footer-link"><a href="#header">BACK TO TOP</a></p>   
         </section>    
