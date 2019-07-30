@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Crimson Pro', serif;
 }
 
 body {
@@ -51,6 +52,9 @@ a:visited {
     font-style: italic;
     letter-spacing: .6px;
     line-height: 1.5em;
+}
+
+.box-intro {
     min-height: 100px;
 }
 
@@ -88,9 +92,24 @@ h2 {
 .box-content {
     display: block;    
     padding: 10px;
-    margin-bottom: 50px;
 }
 
+.new-section-headline {
+    margin: .83em 0;
+    padding: 60px 0;
+}
+
+.skills ul {
+    text-align: center;
+    margin: 0 0 110px 0;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: firebrick;
+    color: white;
+    border-radius: 10px;
+}
 .footer {
     background-color: lightgray;
     padding: 10px;
@@ -277,12 +296,12 @@ h2 {
     }
 
     .box {
-        width: 30%;
+        width: 29%;
     }
 
-    div {
+    div .primary-content {
         display: block;
-        min-height: max-content;
+        margin: 0 auto;
     }
 
 
@@ -296,24 +315,32 @@ h2 {
         letter-spacing: 1px;
     }
 
-    .box-left {
+    .left {
         display: block;
         float: left;
         margin: 0 auto;
+        min-height: 300px;
+        width: 32.2%;
     }
 
-    .box-right {
+    .center {
+        display: block;
+        float: left;
+        margin: 0 15px;
+        min-height: 300px;
+        width: 32.2%;
+    }
+
+    .right {
         display: block;
         float: left;
         margin: 0 auto;
-    }
-
-    .box-2,
-    .box-5 {
-        margin: 0 30px;
+        min-height: 300px;
+        width: 32.2%;
     }
 
     .footer-nav p {
         display: none;
     }
+
 }
