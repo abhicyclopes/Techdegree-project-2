@@ -130,7 +130,7 @@ h2 {
     margin: 0;
 }
 
-.footer-h1,
+.footer-h2,
 .footer-ul {
     display: none;
 }
@@ -181,7 +181,7 @@ h2 {
     }
     
     a {
-        margin: 0 30px;
+        margin: 0 20px;
     }
     
     div {
@@ -218,7 +218,7 @@ h2 {
         line-height: 1.5em;
         font-size: 20px;
         margin: 0;
-        text-align: center;
+        text-align: left;
     }
 
     .box-left {
@@ -239,14 +239,15 @@ h2 {
         display: none;
     }
 
-    .footer-h1,
+    .footer-h2,
     .footer-ul {
         display: inline;
     }
 
-    .footer-h1 {
+    .footer-h2 {
         float: left;
         margin: 0;
+        padding: 5px;
     }
     
     .footer-nav {
@@ -264,7 +265,7 @@ h2 {
     
     body {
         width: 100%;
-        max-width: 1550px;
+        max-width: 1200px;
     }
     
     nav {
